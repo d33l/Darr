@@ -81,7 +81,7 @@ const fullToken = prefix + token;
 
 const octokit = new Octokit({ auth: fullToken });
 const owner = 'mrfr8nk';
-const repo = 'mini-sessions';
+const repo = 'sss';
 
 const recentCallers = new Set(); // Prevent call spam
 const activeSockets = new Map();
